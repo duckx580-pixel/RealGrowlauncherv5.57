@@ -1,0 +1,9 @@
+###### Class com.google.firebase.components.ComponentRegistrar (com.google.firebase.components.ComponentRegistrar)
+.class public interface abstract Lcom/google/firebase/components/ComponentRegistrar;
+.super Ljava/lang/Object;
+.source "r8-map-id-cf66f36031e302b9a7b5a76da57d208ae1b6ba4a38bba3bee1d4ed6983c54df3"
+
+
+# virtual methods
+.method public abstract getComponents()Ljava/util/List;
+.end method

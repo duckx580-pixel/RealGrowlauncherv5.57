@@ -1,0 +1,10 @@
+package com.google.gson.internal;
+
+/* JADX INFO: compiled from: r8-map-id-cf66f36031e302b9a7b5a76da57d208ae1b6ba4a38bba3bee1d4ed6983c54df3 */
+/* JADX INFO: loaded from: classes.dex */
+public final class s extends t {
+    @Override // com.google.gson.internal.t
+    public final Object a(Class cls) {
+        throw new UnsupportedOperationException("Cannot allocate " + cls + ". Usage of JDK sun.misc.Unsafe is enabled, but it could not be used. Make sure your runtime is configured correctly.");
+    }
+}

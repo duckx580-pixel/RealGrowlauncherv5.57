@@ -1,0 +1,17 @@
+package i3;
+
+import android.content.Context;
+import android.content.Intent;
+import android.os.Bundle;
+
+/* JADX INFO: compiled from: r8-map-id-cf66f36031e302b9a7b5a76da57d208ae1b6ba4a38bba3bee1d4ed6983c54df3 */
+/* JADX INFO: loaded from: classes.dex */
+public abstract class a {
+    public static void a(Context context, Intent[] intentArr, Bundle bundle) {
+        context.startActivities(intentArr, bundle);
+    }
+
+    public static void b(Context context, Intent intent, Bundle bundle) {
+        context.startActivity(intent, bundle);
+    }
+}

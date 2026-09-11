@@ -1,0 +1,47 @@
+package androidx.compose.material.icons.outlined;
+
+import bj.n;
+import g1.m0;
+import g1.t;
+import j0.b;
+import k0.a;
+import k1.e;
+import k1.f;
+import k1.h0;
+import kotlin.jvm.internal.l;
+
+/* JADX INFO: compiled from: r8-map-id-cf66f36031e302b9a7b5a76da57d208ae1b6ba4a38bba3bee1d4ed6983c54df3 */
+/* JADX INFO: loaded from: classes.dex */
+public final class TextsmsKt {
+    private static f _textsms;
+
+    public static final f getTextsms(b bVar) {
+        l.f("<this>", bVar);
+        f fVar = _textsms;
+        if (fVar != null) {
+            return fVar;
+        }
+        e eVar = new e("Outlined.Textsms", 24.0f, 24.0f, 24.0f, 24.0f, 0L, 0, false, 224);
+        int i10 = h0.f9067a;
+        m0 m0Var = new m0(t.f6905b);
+        n nVarC = a.c(20.0f, 2.0f, 4.0f, 2.0f);
+        nVarC.i(-1.1f, 0.0f, -2.0f, 0.9f, -2.0f, 2.0f);
+        k0.f.C(nVarC, 18.0f, 4.0f, -4.0f, 14.0f);
+        nVarC.i(1.1f, 0.0f, 2.0f, -0.9f, 2.0f, -2.0f);
+        nVarC.l(22.0f, 4.0f);
+        nVarC.i(0.0f, -1.1f, -0.9f, -2.0f, -2.0f, -2.0f);
+        a.n(nVarC, 20.0f, 16.0f, 6.0f, 16.0f);
+        nVarC.m(-2.0f, 2.0f);
+        a.y(nVarC, 4.0f, 4.0f, 16.0f, 12.0f);
+        a.p(nVarC, 7.0f, 9.0f, 2.0f, 2.0f);
+        k0.b.D(nVarC, 7.0f, 11.0f, 11.0f, 9.0f);
+        k0.b.t(nVarC, 2.0f, 2.0f, -2.0f);
+        a.p(nVarC, 15.0f, 9.0f, 2.0f, 2.0f);
+        nVarC.k(-2.0f);
+        nVarC.g();
+        e.a(eVar, nVarC.f3166a, 0, m0Var);
+        f fVarB = eVar.b();
+        _textsms = fVarB;
+        return fVarB;
+    }
+}
